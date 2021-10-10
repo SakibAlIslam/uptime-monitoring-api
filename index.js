@@ -18,6 +18,7 @@ app.createServer = () => {
 
 //handle request response
 app.handleReqRes = (req, res) => {
+    //response handle
     res.end('hello world')
 }
 

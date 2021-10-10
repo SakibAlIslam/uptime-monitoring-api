@@ -1,0 +1,22 @@
+{
+  "name": "uptime-monitoring-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SakibAlIslam/uptime-monitoring-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SakibAlIslam/uptime-monitoring-api/issues"
+  },
+  "homepage": "https://github.com/SakibAlIslam/uptime-monitoring-api#readme",
+  "dependencies": {
+    "loadash": "^1.0.0"
+  }
+}
