@@ -24,8 +24,10 @@ app.handleReqRes = (req, res) => {
     const parsedUrl = url.parse(req.url, true);
     const path = parsedUrl.pathname;
     const trimmedPath = path.replace(/^\/+|\/+$/g, '');
+    const method = req.method.toLowerCase();
+    const quearyStringObject = parsedUrl.query
 
-    console.log(trimmedPath)
+    console.log(quearyString)
     //response handle
     res.end('hello sakib')
 }
