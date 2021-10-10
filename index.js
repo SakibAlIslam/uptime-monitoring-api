@@ -22,7 +22,10 @@ app.handleReqRes = (req, res) => {
     //request handling
     // get the url and parse it 
     const parsedUrl = url.parse(req.url, true);
-    console.log(parsedUrl)
+    const path = parsedUrl.pathname;
+    const trimmedPath = path.replace(/^\/+|\/+$/g, '');
+
+    console.log(trimmedPath)
     //response handle
     res.end('hello sakib')
 }
